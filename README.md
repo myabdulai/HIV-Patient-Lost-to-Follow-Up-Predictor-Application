@@ -2,26 +2,24 @@
 HIV-Patient-Lost-to-Follow-Up-Predictor-Application
 
 ## Overview
-- HIV is one the diseases of public health concern. Management of the disease required patients to be on Antiretroviral Therapy (ART) continuously.
-- People living with HIV (PLHIV) often lost to follow up (LFU) due to several factors.
-- LFU is a term use to describe the status of a patient after failing for a certain number of days to return to a health facility for medication.
-- Frequent LFU, can result in drug resistance, make the immune system of a patient vulnerable to opportunistic infections such as such Tuberculosis (TB) and may even lead to patient death.
+- The prevalence of Lost to Follow Up (LFU) is high among PLHIV receiving treatment in Ghana.
+- Frequent LFU can cause drug resistance which may lead to serious complications if not properly managed.
+- Drug resistance increases cost of the treatment.
+- This motivated me to develop this application as my course project to assist in identifying patients who are likely to get LFU at point of care .
 
+## Implementation
+- The dataset was imported into python
+- A decision-tree model was built.
+- The model was evaluated for accuracy, and it achieved 79% accuracy level.
+-  A graphic user interface was designed. 
+- input data from the graphic user interface is collected, converted into a dataframe and passed to the model for prediction.
 
-## Research Question
-What question or problem are you exploring?
+## Installation
+- Python and libraries were installed to allow for successful implementation of the project.
 
-## Methodology
-Short explanation of your process, tools, and approach.
-
-## Findings
-Main insights or results you discovered.
-
-## 🔧 Installation
-Steps to get the project running locally.
-
-## 🛠️ Technologies Used
-Mention programming languages, libraries, tools.
+## Technologies Used
+- Programing language: Python
+- Libraries: pandas, numpy, sklearn, joblip, and tKinker
 
 
 
